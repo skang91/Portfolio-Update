@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+.topnav {
+    overflow: hidden;
+    width: 100%;
+    background-color:#ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+.navcontainer {
+    margin: 0 auto;
+    width: 960px;
+}
+body{
+    background: url(../images/blue-snow.png);
+    margin: 0;
+}
+
+header {
+    float: left;
+    display: inline-block;
+    padding: 0px 30px;
+    text-align: center;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background: #4aaaa5;
+}
+header h1 {
+    color: #ffffff;
+}
+nav {
+    display: inline-block;
+    float: right;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 20px 0px;
+    background: #ffffff;
+}
+nav a {
+    text-decoration: none;
+    padding:10px;
+    color: #666666;
+}
+
+
+section {
+    clear: both;
+    width: 960px;
+    background: #ffffff;
+    text-align: left;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+section h2 {
+    color: #4aaaa5;
+    border-bottom: 3px solid #dddddd;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.clearfix img {
+    float: left;
+    margin-right: 20px;
+}
+.clearfix p {
+    line-height: 2;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+.footer {
+    text-align: center;
+    width: 100%;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    color: #cccccc;
+    height: 70px;
+    padding-top: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+/*contact.html*/
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+button[type=button] {
+    background: #4aaaa5;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 25px;
+    border: none;
+}
+
+
+/*portfolio.html*/
+.img-box {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+}
+
+.img-name {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    color: #ffffff;
+    background: #4aaaa5;
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    
+}

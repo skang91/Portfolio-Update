@@ -5,35 +5,298 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Basic-Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Somin Kang Portfolio</title>
+
+  <!--Animate CSS CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <!--Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,700,800,900" rel="stylesheet">
+  <!--Devicon-->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--CSS-->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-  <div class="topnav">
-    <div class="navcontainer">
-      <header>
-          <h1>Somin Kang</h1>
-      </header>
+  <header>
+    <nav>
+      <div class="row">
+        <ul class="main-nav js--main-nav">
+          <li>
+            <a href="#about">About</a>
+          </li>
+            <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+          <li>
+            <a href="">Resume</a>
+          </li>
+        </ul>
+        <a class="mobile-nav-icon js--nav-icon">
+          <ion-icon name="menu" class="mobile-menu"></ion-icon>
+        </a> 
+      </div>
+    </nav>
 
-      <nav>
-          <a href="index.html">About</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="contact.html">Contact</a>
-      </nav>
+    <div class="row">
+      <div class="col span-1-of-2 animated slideInLeft">
+        <h1 class="name-title">Somin Kang</h1>
+        <h2 class="job-title">Software developer &#38; Accountant</h2>
+      </div>
+      <div class="col span-1-of-2 selfie animated slideInRight">
+        <img src="assets/images/profile.png">
+      </div>
     </div>
-  </div>
+  
+  </header>
 
- <div>
-    <section class="clearfix">
-      <h2>About Me</h2>
-      <img src="assets/images/profile.jpeg" alt="image">
-      <p>I graduated from Cal State University, Northridge in 2016 with a Bachelor of Science in Accountancy. I worked at architecurual and contruction firm, a CPA firm, and a forensic accouting firm as an accountnat. Currently, I'm working for city as a finance analyst.  </p>
-      <p>I enjoy working in finance and accounting field, but I always want to learn coding since I was young. I like working with computers and having fun to learn programming. I like programming because I like creating something out of nothing, making things work, and building somehting beautiful. My dream is to become a software engineer and goal is to develop my own accouting related software application. Here is my favorite quote "Wish it. Plan it. Do it."</p>
+  <!--About Section-->
+   <section class="section-about js--section-about" id="about">
+     <div class="row">
+        <h2 class="about">About Me</h2>
+        <p class="long-copy">
+        I graduated from Cal State University, Northridge in 2016 with a Bachelor of Science in Accountancy. I worked at architecurual and contruction firm, a CPA firm, and a forensic accouting firm as an accountnat. Currently, I'm working for city as a finance analyst.
+        <br>
+        <br>
+        I enjoy working in finance and accounting field, but I always want to learn coding since I was young. I like working with computers and having fun to learn programming. I like programming because I like creating something out of nothing, making things work, and building somehting beautiful. My dream is to become a software engineer and goal is to develop my own accouting related software application. Here is my favorite quote "Wish it. Plan it. Do it."
+        </p>
+      </div>
     </section>
+
+<!--Portfolio Section-->
+<section class="section-portfolio" id="portfolio">
+  <div class="row">
+      <h2 class="portSection">Portfolio</h2>
+  </div>  
+      <!--Projects-->
+      <ul class="portfolio-showcase clearfix">
+      <li>
+        <figure class="portPhoto" id="project1">
+          <a href="https://skang91.github.io/Psychic-Game/">
+          <img src="assets/images/project1.png" alt="Psychic-Game">
+          </a>
+        </figure>
+      </li>
+
+      <li>
+        <figure class="portPhoto" id="project2">
+          <a href="https://skang91.github.io/unit-4-game/">
+          <img src="assets/images/project2.png" alt="CrystalsCollector-Game">
+          </a>
+        </figure>
+      </li>
+
+      <li>
+        <figure class="portPhoto" id="project3">
+          <a href="https://skang91.github.io/TriviaGame/">
+          <img src="assets/images/project3.png" alt="Trivia-Game">
+          </a>
+        </figure>
+      </li>
+      <li>
+        <figure class="portPhoto" id="project4">
+          <a href="https://skang91.github.io/GifTastic/">
+          <img src="assets/images/project4.png" alt="GifTastic">
+          </a>
+        </figure>
+      </li>
+
+      </ul>
+
+      <ul class="portfolio-showcase clearfix">
+      <li>
+        <figure class="portPhoto" id="project5">
+          <a href="https://skang91.github.io/Train-Scheduler">
+          <img src="assets/images/project5.png" alt="Train Scheduler">
+          </a>
+        </figure>
+      </li>
+
+      <li>
+        <figure class="portPhoto" id="project6">
+          <a href="https://ypangilinan.github.io/Travelogged/">
+          <img src="assets/images/project6.png" alt="Travelogged">
+          </a>
+        </figure>
+      </li>
+     </ul>
+</section>
+
+<!--Skills Section-->
+<section class="section-skills" id="skills">
+  <div class="row">
+    <h2 class="skillTitle">Skills</h2>
   </div>
 
- <footer class="footer">copyright©</footer>  
+  <div class="container">
+    <!--first row-->
+    <div class="row">
+      <div class="col span-1-of-4 box">
+          <div class="skillset">
+            <span>
+              <i class="devicon-html5-plain fa-5x  mt-2 s" aria-hidden="true"></i>
+            </span>
+              <h5 class="skill_name">HTML</h5>
+          </div>
+    </div>
+    <div class="col span-1-of-4 box">
+        <div class="skillset">
+            <span>
+                <i class="devicon-css3-plain fa-5x  mt-2" aria-hidden="true"></i>
+            </span>
+            <h5 class="skill_name">CSS</h5>
+        </div>
+    </div>
+    <div class="col span-1-of-4 box">
+        <div class="skillset">
+            <span>
+                <i class="devicon-bootstrap-plain fa-5x mt-3" aria-hidden="true"></i>
+            </span>
+            <h5 class="skill_name">BOOTSTRAP</h5>
+        </div>
+    </div>
+    <div class="col span-1-of-4 box">
+        <div class="skillset">
+            <span>
+                <i class="devicon-javascript-plain fa-5x mt-3" aria-hidden="true"></i>
+            </span>
+            <h5 class="skill_name">JAVASCRIPT</h5>
+        </div>
+    </div>
+</div>
+<!--second row-->
+<div class="row">
+  <div class="col span-1-of-4 box">
+      <div class="skillset">
+          <span>
+              <i class="devicon-jquery-plain fa-5x mt-3" aria-hidden="true"></i>
+          </span>
+          <h5 class="skill_name">JQuery</h5>
+      </div>
+  </div>
+  <div class="col span-1-of-4 box">
+      <div class="skillset">
+          <span>
+              <i class="devicon-git-plain fa-5x mt-3" aria-hidden="true"></i>
+          </span>
+          <h5 class="skill_name">GIT</h5>
+      </div>
+  </div>
+  <div class="col span-1-of-4 box">
+      <div class="skillset">
+          <span>
+              <i class="devicon-github-plain fa-5x mt-3" aria-hidden="true"></i>
+          </span>
+          <h5 class="skill_name">GitHub</h5>
+      </div>
+  </div>
+</section>
+
+<!--Contact Section-->
+<section class="section-form" id="contact">
+  <div class="row">
+    <h2 class="contact-form">Contact</h2>
+    <form method="post" action="#" class="contact-form">
+        <div class="row">
+            <div class="col span-1-of-3">
+                <label for="name">Name</label>
+            </div>
+            <div class="col span-2-of-3">
+                <input type="text" name="name" id="name" placeholder="Your Name" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <label for="email">Email</label>
+            </div>
+            <div class="col span-2-of-3">
+                <input type="email" name="email" id="email" placeholder="Your Email" required>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col span-1-of-3">
+              <label for="email">Message</label>
+          </div>
+          <div class="col span-2-of-3">
+              <textarea type="message" name="message" style="height:200px"></textarea>
+          </div>
+      </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <label>&nbsp;</label>
+            </div>
+            <div class="col span-2-of-3">
+                <input type="submit" value="Submit" class="btn btn-full" id="send_it">
+            </div>
+        </div>
+    </form>
+</div>
+</section>
+
+
+<!--Footer-->
+<footer>
+  <div class="row section-form" id="contact">
+    <div class="col span-1-of-2">
+        <ul class="footer-nav">
+            <li>
+                <p class="phone">
+                    <ion-icon name="call"></ion-icon> 818.297.6623</p>
+            </li>
+            <li>
+                <p class="email">
+                    <ion-icon name="mail"></ion-icon> somin.kang.91@gmail.com</p>
+            </li>
+        </ul>
+    </div>
+    <div class="col span-1-of-2">
+        <ul class="social-links">
+          <li>
+            <a href="https://www.linkedin.com/in/somin-kang-b1763489/" target="_blank">
+                <ion-icon name="logo-linkedin" class="linkedin"></ion-icon>
+            </a>
+        </li> 
+           <li>
+                <a href="https://github.com/skang91" target="_blank">
+                    <ion-icon name="logo-github" class="github"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <ion-icon name="logo-twitter" class="twitter"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <ion-icon name="logo-googleplus" class="googleplus"></ion-icon>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="row">
+    <p class="footerCopyright">
+        Copyright &copy; 2020 Somin Kang
+    </p>
+</div>
+</footer>
+
+<!--Icons CDN-->
+<script src="https://unpkg.com/ionicons@4.1.2/dist/ionicons.js"></script>
+<!--jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./assets/js/jquery.waypoints.min.js"></script>
+<!--JavaScript-->
+<script src="./assets/js/script.js"></script>
 
 </body>
 

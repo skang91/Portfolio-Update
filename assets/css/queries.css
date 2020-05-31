@@ -8,7 +8,7 @@
     }
 }
 
-/*small to medium screen*/
+/*tablet 768-1023px*/
 @media only screen and (max-width: 1023px) {
     body {
       font-size: 18px;
@@ -51,8 +51,7 @@
         width: 80%;
       }
 }
-
-/*small*/
+/*481px-767px*/
 @media only screen and (max-width: 767px) {
     body {
       font-size: 16px;
@@ -118,24 +117,22 @@
       font-size: 100%;
       padding: 20px;
     }
-  
     .selfie img {
-      width: 280px;
-      height: auto;
-      margin-bottom: 100px;
-      margin-top: -50px;
-      margin-left: 60px;
-      border-bottom-left-radius: 50%;
-      border-bottom-right-radius: 50%;
-      border-top-right-radius: 50%;
-      border-top-left-radius: 50%;
-    }
-    .long-copy {
+        width: 280px;
+        height: auto;
+        margin-bottom: 100px;
+        margin-top: -50px;
+        margin-left: 60px;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;
+      }
+      .long-copy {
         line-height: 145%;
         width: 90%;
         margin-left: 5%;
       }
-    
       h1 {
         font-size: 180%;
       }
@@ -151,7 +148,6 @@
       .app-screen {
         width: 40%;
       }
-    
       .row .portSection {
         margin-top: 70px;
       }
@@ -168,6 +164,12 @@
         margin: 0;
         overflow: hidden;
         background-color: #000;
+      }
+    
+      .modal-content {
+        max-height: calc(100vh - 200px);
+        overflow-y: auto;
+        width: 90%;
       }
       .skillTitle {
         margin-top: 50px;
@@ -213,7 +215,7 @@
       }
     }
     
-    /*small phones*/
+    /*small - phones*/
     @media only screen and (max-width: 480px) {
         html,
         body {
@@ -252,7 +254,7 @@
           height: auto;
           margin-bottom: 100px;
           margin-top: -50px;
-          margin-left: 20px;
+          margin-left: 50px;
           border-bottom-left-radius: 50%;
           border-bottom-right-radius: 50%;
           border-top-right-radius: 50%;

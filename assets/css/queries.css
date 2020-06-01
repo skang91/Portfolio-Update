@@ -73,11 +73,15 @@
     .mobile-nav-icon {
       display: inline-block;
     }
-  
+    .logo img {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
     .main-nav {
       float: left;
       margin-top: 35px;
-      margin-left: 25px;
+      margin-left: 70px;
     }
   
     .main-nav li {
@@ -106,7 +110,10 @@
     .sticky .mobile-nav-icon {
       margin-top: 10px;
     }
-  
+    .sticky .logo img {
+        width:70px;
+        height:70px;
+    }
     .name-title {
       margin: 0;
       font-size: 250%;
@@ -237,7 +244,7 @@
         h2 {
           font-size: 100%;
         }
-      
+
         .name-title {
           margin: 0;
           font-size: 250%;

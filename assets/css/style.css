@@ -63,7 +63,7 @@ h2 {
 h2:after {
     display: block;
     height: 2px;
-    background-color: rgb(209, 125, 153);
+    background-color: rgb(250, 119, 141);
     content: " ";
     width: 100px;
     margin: 0 auto;
@@ -84,7 +84,7 @@ h2:after {
 
 /*HEADER*/
 header {
-    background-image: url(../images/backgroundimage.jpg);
+    background-image: url(../images/backgroundimage.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -132,7 +132,7 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid rgb(209, 125, 153);
+    border-bottom: 2px solid rgb(118, 135, 151);
 }
 
 .mobile-nav-icon {

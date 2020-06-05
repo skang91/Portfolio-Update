@@ -92,12 +92,12 @@ header {
     position: relative;
 }
 .name-title {
-    margin: 160px 0 20px 70px;
+    margin: 160px 0 20px 0;
     font-size: 250%;
+    text-align: center;
 }
 .job-title {
     font-size: 100%;
-    margin-right: -10px;
 }
 .selfie img { 
     width: 280px;

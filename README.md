@@ -6,8 +6,8 @@ My updated Portfolio includeds links to a PDF of my resume on the top navigation
 <h2>Design</h2>
 Mobile-friendliness and Readability. 
 
+<h3>Main</h3>
 <img src = "assets/images/main.png">
-
 
 <h3>Footer</h3>
 <img src = "assets/images/footer.png">
